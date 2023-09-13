@@ -1,0 +1,45 @@
+
+ [
+  {
+    "id":1,
+    "nombre": "Hamburguesa + papas",
+    "precio": 2500
+  },
+  {
+    "id":2,
+    "nombre": "Hamb. Vegetariana" ,
+    "precio": 2000
+  },
+  {
+    "id":3,
+    "nombre": "Lasaña Boloñesa",
+    "precio": 1800
+  },
+  {
+    "id":4,
+    "nombre": "Ravioles Caseros",
+    "precio": 2100
+  },
+  {
+    "id":5,
+    "nombre": "Wraps de Carne",
+    "precio": 1800
+  },
+  {
+    "id":6,
+    "nombre": "Tortilla de Papas",
+    "precio": 1500
+  },
+
+  {
+    "id":7,
+    "nombre": "Pizza XL",
+    "precio": 1900
+  },
+
+  {
+    "id":8,
+    "nombre": "Milanesa Napolitana",
+    "precio": 2800
+  }
+]

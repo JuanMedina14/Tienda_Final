@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px) {
+  #productos-container {
+    max-width: 100%;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tarjeta-producto img {
+    width: 250px;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+ 	<link rel="stylesheet" href="./css/cart.css">
+	<title>Tienda JM- Carrito</title>
+	<!-- CDN libreria sweetalert para confirmacion de compra -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+  <header>
+		<nav>
+			<a href="./index.html"><img src="./img/logo.jpg" alt="Logo" id="logo"></a>
+			<div>
+				<a href="./index.html">Inicio</a>
+				<a href="#">Bebidas</a>
+				<a href="#">Postres</a>
+				<a href="./cart.html" id="cart"><img src="./img/iconos/shopping-cart.png" alt=""><span id="cuenta-carrito">0</span></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<p id="carrito-vacio">El carrito está vacío,<br>
+			 <a href="./index.html"> ve al  <a href="./index.html"><button>INICIO</button> </a> elige algunos productos</a></p>
+		<section id="cart-container">
+		</section>
+  <section id="totales">
+    <p>Total unidades: <span id="cantidad">0</span></p>
+    <p>Total precio: $<span id="precio">0</span></p>
+    <button id="comprar">Comprar</button>
+    <button id="reiniciar">Reiniciar</button>
+  </section>
+</main>
+<footer>
+	<p>JuanMedinaGráfico</p>
+</footer>
+
+	
+  	<script src="./js/cartService.js"></script>
+	<script src="./js/cart.js"></script>
+</body>
+</html>
